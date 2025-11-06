@@ -1,167 +1,347 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="google-site-verification" content="NmCVTSAropOWlcUzG-hupHVhNnqaoPsVMUpu3SqRmxU" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Merch dominator chrome extension download free 2025</title>
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Boost Your Print-on-Demand Sales — MerchFlux Research & Automation</title>
+
+  <!-- Primary SEO meta -->
+  <meta name="description" content="Find profitable niches, analyze competition and launch faster with MerchFlux — an all-in-one Chrome extension for Merch by Amazon (MBA) and KDP. Learn features, workflow and how to scale smarter." />
+  <meta name="keywords" content="MerchFlux, Merch by Amazon research, KDP niche research, POD niche finder, Amazon BSR tool, trademark checker, MerchFlux extension" />
+  <link rel="canonical" href="https://merchflux.com/" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:title" content="Boost Your Print-on-Demand Sales — MerchFlux Research & Automation" />
+  <meta property="og:description" content="Find profitable niches, analyze competition and launch faster with MerchFlux — an all-in-one Chrome extension for Merch by Amazon and KDP." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://merchflux.com/" />
+  <meta property="og:image" content="https://merchflux.com/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- JSON-LD Structured Data (SoftwareApplication) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "MerchFlux",
+    "operatingSystem": "Chrome",
+    "applicationCategory": "BusinessApplication",
+    "url": "https://merchflux.com/",
+    "sameAs": [
+      "https://chromewebstore.google.com/detail/merchflux-for-merch-by-am/cbgnjkekdnakcocdmloeollckgpfakjb"
+    ],
+    "description": "MerchFlux is a Chrome extension for Merch by Amazon and KDP that helps you find profitable niches, analyze competition, check trademarks, and automate Print-on-Demand workflows."
+  }
+  </script>
+
+  <style>
+    :root{
+      --accent:#0b76ef;
+      --bg:#fafafa;
+      --card:#ffffff;
+      --muted:#6b7280;
+      --max-width:1100px;
+      --radius:12px;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    html,body{height:100%;}
+    body{
+      margin:0;
+      background:linear-gradient(180deg,#ffffff 0%, var(--bg) 100%);
+      color:#0f172a;
+      line-height:1.6;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+    }
+    .container{
+      max-width:var(--max-width);
+      margin:36px auto;
+      padding:28px;
+    }
+    header{
+      display:flex;
+      gap:18px;
+      align-items:center;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:64px;
+      height:64px;
+      display:inline-grid;
+      place-items:center;
+      background:linear-gradient(135deg,var(--accent),#7dd3fc);
+      color:white;
+      border-radius:12px;
+      flex:0 0 64px;
+      box-shadow:0 6px 20px rgba(11,118,239,0.12);
+    }
+    h1{
+      margin:0;
+      font-size: clamp(20px, 2.6vw, 32px);
+      line-height:1.05;
+    }
+    .meta{
+      color:var(--muted);
+      font-size:14px;
+      margin-top:6px;
+    }
+    main{display:grid;grid-template-columns:1fr 360px;gap:28px;margin-top:18px;}
+    @media (max-width:1000px){ main{grid-template-columns:1fr;} .toc{order:2;} }
+    article{
+      background:var(--card);
+      border-radius:var(--radius);
+      padding:22px;
+      box-shadow:0 6px 20px rgba(2,6,23,0.04);
+    }
+    .toc{
+      position:relative;
+      top:0;
+    }
+    .card{
+      background:#fff;
+      border-radius:10px;
+      padding:16px;
+      box-shadow:0 6px 18px rgba(2,6,23,0.04);
+    }
+    .lead{
+      font-size:16px;
+      color:#0b1220;
+      margin-bottom:12px;
+    }
+    .muted{color:var(--muted);}
+    ul.checks{padding-left:18px;}
+    .cta{
+      display:inline-flex;
+      gap:10px;
+      align-items:center;
+      background:var(--accent);
+      color:#fff;
+      padding:10px 14px;
+      border-radius:10px;
+      text-decoration:none;
+      font-weight:600;
+      box-shadow:0 8px 30px rgba(11,118,239,0.18);
+    }
+    .link-secondary{
+      color:var(--accent);
+      text-decoration:none;
+      font-weight:600;
+    }
+
+    /* Collapsible details: enhance default */
+    details{margin:18px 0;border-radius:10px;overflow:hidden;border:1px solid #eef2ff;background:#fff;}
+    details summary{
+      list-style:none;
+      cursor:pointer;
+      padding:16px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      font-weight:700;
+    }
+    details[open] summary{background:linear-gradient(90deg,#f8fafc,#f1f5f9);}
+    details .content{padding:16px;border-top:1px solid #f1f5f9;color:#0f172a;}
+    .feature-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;}
+    .feature{
+      background:#f8fafc;padding:12px;border-radius:8px;border:1px solid #eef2ff;font-size:14px;
+    }
+
+    footer{margin-top:22px;color:var(--muted);font-size:13px;}
+
+    /* Floating Action Button (CTA) */
+    #fab{
+      position:fixed;
+      right:18px;
+      bottom:18px;
+      z-index:9999;
+      display:inline-flex;
+      gap:10px;
+      align-items:center;
+      background:linear-gradient(180deg,var(--accent),#0a66d1);
+      color:white;
+      padding:12px 14px;
+      border-radius:999px;
+      box-shadow:0 12px 40px rgba(11,118,239,0.22);
+      text-decoration:none;
+      font-weight:700;
+    }
+    #fab small{display:block;font-size:11px;opacity:0.95;line-height:1;}
+
+    /* small utilities */
+    .small{font-size:13px;color:var(--muted);}
+    .kbd{display:inline-block;padding:4px 8px;border-radius:6px;background:#0f172a;color:#fff;font-size:12px;font-weight:700;}
+    .badge{display:inline-block;padding:6px 8px;border-radius:999px;background:#eef2ff;color:var(--accent);font-weight:700;font-size:12px;}
+
+    /* table for quick feature comparison */
+    table{width:100%;border-collapse:collapse;margin-top:12px;}
+    table th, table td{padding:10px;border-bottom:1px solid #f1f5f9;text-align:left;font-size:14px;}
+    table th{color:var(--muted);font-weight:700;font-size:13px;}
+  </style>
 </head>
 <body>
+  <a id="skip-link" href="#main-content" style="position:absolute;left:-9999px;top:auto">Skip to content</a>
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-  <div class="container">
-    <a class="navbar-brand fw-bold" href="#">https://guidestore.gumroad.com/l/Living-with-Autism-Guide-to-Understanding-and-Thrivin</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-<!-- Hero Section -->
-<section id="hero" class="d-flex align-items-center bg-primary text-white text-center" style="height:100vh;">
-  <div class="container">
-    <h1 class="display-3 fw-bold">Welcome to My Website</h1>
-    <p class="lead">A modern responsive site built with HTML, CSS & Bootstrap</p>
-    <a href="#about" class="btn btn-light btn-lg mt-3">Learn More</a>
-  </div>
-</section>
-
-<!-- About Section -->
-<section id="about" class="py-5">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-md-6">
-        <h2>About Us</h2>
-        <p class="lead">We are passionate about creating modern and responsive websites that look amazing on all devices. Our team focuses on design, usability, and performance.</p>
-<a href="https://b.hatena.ne.jp/zakariahli14gmailcom/">https://b.hatena.ne.jp/zakariahli14gmailcom/</a>
-<a href="https://hackmd.io/a4mpkLaXRtuAdQF4pXUXAg">https://hackmd.io/a4mpkLaXRtuAdQF4pXUXAg</a>
-<a href="https://zakariahli14.medium.com/understanding-autism-a-complete-guide-for-parents-and-caregivers-56006b62b651">https://zakariahli14.medium.com/understanding-autism-a-complete-guide-for-parents-and-caregivers-56006b62b651</a>
-<a href="https://guidestore.gumroad.com/l/Living-with-Autism-Guide-to-Understanding-and-Thrivin">https://guidestore.gumroad.com/l/Living-with-Autism-Guide-to-Understanding-and-Thrivin</a>
-<a href="https://www.amazon.com/dp/B0FNH3L64Q">https://www.amazon.com/dp/B0FNH3L64Q</a>
-<a href="https://www.amazon.co.uk/dp/B0FNGX7B7M">https://www.amazon.co.uk/dp/B0FNGX7B7M</a>
-<a href="https://www.amazon.com/dp/B0FNDL5CCW">https://www.amazon.com/dp/B0FNDL5CCW</a>
-<a href="https://www.amazon.co.uk/dp/B0FNDPZZL2">https://www.amazon.co.uk/dp/B0FNDPZZL2</a>
-<a href="https://www.amazon.com/dp/B0FNC6R61Y">https://www.amazon.com/dp/B0FNC6R61Y</a>
-<a href="https://www.amazon.co.uk/dp/B0FNC99HCH">https://www.amazon.co.uk/dp/B0FNC99HCH</a>
-<a href="https://www.amazon.com/dp/B0FNC2KKB4">https://www.amazon.com/dp/B0FNC2KKB4</a>
-<a href="https://zakariahli14.medium.com/understanding-autism-a-complete-guide-for-parents-and-caregivers-56006b62b651">https://zakariahli14.medium.com/understanding-autism-a-complete-guide-for-parents-and-caregivers-56006b62b651</a>
-      
-      
-      
+  <div class="container" role="document">
+    <header>
+      <div class="logo" aria-hidden="true">
+        <!-- simple logo mark -->
+        <svg width="34" height="34" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect x="1" y="4" width="22" height="16" rx="4" fill="white" fill-opacity="0.06"/>
+          <path d="M7 9h10M7 12h6" stroke="white" stroke-width="1.4" stroke-linecap="round"/>
+        </svg>
       </div>
-      <div class="col-md-6">
-        <img src="https://via.placeholder.com/500x300" class="img-fluid rounded shadow" alt="About Image">
+      <div>
+        <h1>Boost Your Print-on-Demand Sales with the Right Research Tool</h1>
+        <div class="meta">Find profitable niches, analyze competition & launch faster with <strong>MerchFlux</strong></div>
       </div>
-    </div>
-  </div>
-</section>
+    </header>
 
-<!-- Services Section -->
-<section id="services" class="py-5 bg-light">
-  <div class="container text-center">
-    <h2 class="mb-5">Our Services</h2>
-    <div class="row g-4">
-      <div class="col-md-4">
-        <div class="card h-100 shadow border-0">
-          <div class="card-body">
-            <h5 class="card-title">Web Design</h5>
-            <p class="card-text">We design modern and user-friendly websites tailored to your needs.</p>
-          </div>
+    <main id="main-content">
+      <article aria-labelledby="article-heading">
+        <div class="lead">
+          If you’re serious about scaling your POD business on platforms like Merch by Amazon (MBA) and KDP, you need data — not guesses. This page explains why niche research matters and how MerchFlux helps you publish smarter.
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card h-100 shadow border-0">
-          <div class="card-body">
-            <h5 class="card-title">Development</h5>
-            <p class="card-text">Our team builds fast, responsive, and scalable web applications.</p>
+
+        <h2 id="why-research">Why Smart Niche & Competition Research Is Non-Negotiable</h2>
+        <p class="muted">
+          When you upload designs or books into a crowded market, you’re competing for visibility, clicks and conversions. Without the right research, you risk publishing into saturated areas—and that means slow sales and wasted effort.
+        </p>
+
+        <ul class="checks">
+          <li><strong>Demand + competition = viability:</strong> High demand + manageable competition = real opportunity.</li>
+          <li><strong>BSR & pricing tell the story:</strong> Best Seller Rank is a strong indicator of sales velocity on Amazon.</li>
+          <li><strong>Keyword & niche specificity matter:</strong> Sub-niches (audience + interest + event) are where you win.</li>
+          <li><strong>Data beats guesswork:</strong> Keyword volume, competition score, sales estimates and seasonality — verify before you upload.</li>
+        </ul>
+
+        <h2 id="introducing">Introducing MerchFlux — All-in-One POD Research + Automation Tool</h2>
+        <p>
+          <strong>MerchFlux</strong> is a Chrome extension for Merch by Amazon and KDP that helps you research, validate, track and automate tasks from niche discovery to bulk uploads.
+        </p>
+
+        <p class="small">
+          <strong>Install the extension:</strong>
+          <a class="cta" href="https://chromewebstore.google.com/detail/merchflux-for-merch-by-am/cbgnjkekdnakcocdmloeollckgpfakjb" target="_blank" rel="noopener noreferrer">Get MerchFlux</a>
+          <span style="margin-left:10px">•</span>
+          <a class="link-secondary" href="https://merchflux.com/" target="_blank" rel="noopener noreferrer">Visit merchflux.com</a>
+          <span style="margin-left:10px">•</span>
+          <a class="link-secondary" href="https://zakariahli14.medium.com/free-niche-research-tool-for-print-on-demand-unlock-better-niches-with-merchflux-276e5a7f732d" target="_blank" rel="noopener noreferrer">In-depth review</a>
+        </p>
+
+        <!-- Collapsible features -->
+        <details>
+          <summary><strong>Click to expand: MerchFlux Key Features</strong></summary>
+          <div class="content">
+            <div class="feature-grid" role="list">
+              <div class="feature" role="listitem"><strong>Real-Time Data Analysis</strong><div class="small">Track live BSR, pricing, sales estimates and trends directly from Amazon.</div></div>
+              <div class="feature" role="listitem"><strong>Niche Discovery</strong><div class="small">Identify low-competition, high-demand niches rapidly.</div></div>
+              <div class="feature" role="listitem"><strong>Keyword Research</strong><div class="small">Amazon & Google autocomplete, keyword density stats and a niche-score metric.</div></div>
+              <div class="feature" role="listitem"><strong>Trademark Checker</strong><div class="small">Instant trademark safety checks before you upload.</div></div>
+              <div class="feature" role="listitem"><strong>Competition Insights</strong><div class="small">See seller data, publish dates, ratings and competition scores.</div></div>
+              <div class="feature" role="listitem"><strong>Favorites & Export</strong><div class="small">Save groups, export to CSV for analysis or team sharing.</div></div>
+              <div class="feature" role="listitem"><strong>Multi-Marketplace Support</strong><div class="small">Works with all Amazon marketplaces and KDP product types.</div></div>
+              <div class="feature" role="listitem"><strong>Fast & Lightweight</strong><div class="small">Optimised for speed — no crashes even when scanning many listings.</div></div>
+            </div>
           </div>
+        </details>
+
+        <h2 id="why-it-matters">Why It Matters</h2>
+        <p>
+          Using MerchFlux gives you a real edge: save time, reduce risk with built-in trademark checks and competition scores, scale smarter and make data-backed decisions instead of guessing.
+        </p>
+
+        <h2 id="workflow">How to Integrate MerchFlux Into Your Workflow</h2>
+        <ol>
+          <li><strong>Brainstorm broad niches</strong> — interests, passions, target audiences. Examples: "dog owners", "fitness moms", "gaming dads".</li>
+          <li><strong>Plug into MerchFlux</strong> — validate BSR, competition score, keyword data and trademark safety.</li>
+          <li><strong>Drill down to sub-niches</strong> — e.g., "rescue cat mom gift tee" vs "cats". Check BSR and competition before committing.</li>
+          <li><strong>Decide to upload or pass</strong> — go forward when demand + low competition align.</li>
+          <li><strong>Publish and monitor</strong> — export CSVs for performance tracking and A/B testing.</li>
+          <li><strong>Scale winners</strong> — create variations, refine keywords, repeat monthly.</li>
+        </ol>
+
+        <h3>Quick comparison table</h3>
+        <table aria-label="MerchFlux quick features table">
+          <thead>
+            <tr><th>Action</th><th>MerchFlux outcome</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Niche scan</td><td>Identify low-competition ideas in minutes</td></tr>
+            <tr><td>BSR check</td><td>See which listings are moving</td></tr>
+            <tr><td>Trademark check</td><td>Reduce upload risk</td></tr>
+            <tr><td>Export</td><td>CSV for tracking and team workflows</td></tr>
+          </tbody>
+        </table>
+
+        <h2 id="final-thoughts">Final Thoughts</h2>
+        <p>
+          Tools like MerchFlux turn time-consuming manual research into fast, repeatable workflows. If you want to <strong>publish smarter</strong> (not just more), this is a practical place to start.
+        </p>
+
+        <p>
+          <a class="cta" href="https://chromewebstore.google.com/detail/merchflux-for-merch-by-am/cbgnjkekdnakcocdmloeollckgpfakjb" target="_blank" rel="noopener noreferrer">Install MerchFlux</a>
+        </p>
+
+        <footer>
+          <div class="small">Work less. Sell more. — <strong>MerchFlux</strong></div>
+          <div class="small" style="margin-top:8px">Links: <a href="https://merchflux.com/" target="_blank" rel="noopener noreferrer">merchflux.com</a> • <a href="https://chromewebstore.google.com/detail/merchflux-for-merch-by-am/cbgnjkekdnakcocdmloeollckgpfakjb" target="_blank" rel="noopener noreferrer">Chrome Web Store</a> • <a href="https://zakariahli14.medium.com/free-niche-research-tool-for-print-on-demand-unlock-better-niches-with-merchflux-276e5a7f732d" target="_blank" rel="noopener noreferrer">In-depth review</a></div>
+        </footer>
+      </article>
+
+      <!-- Sidebar / quick actions -->
+      <aside class="toc">
+        <div class="card">
+          <strong>Quick actions</strong>
+          <p class="small">Start your first scan:</p>
+          <a class="cta" href="https://chromewebstore.google.com/detail/merchflux-for-merch-by-am/cbgnjkekdnakcocdmloeollckgpfakjb" target="_blank" rel="noopener noreferrer">Install extension</a>
+
+          <hr style="margin:12px 0;border:none;border-top:1px solid #f1f5f9">
+
+          <div class="small"><strong>Resources</strong></div>
+          <ul style="padding-left:16px;margin-top:8px">
+            <li><a class="link-secondary" href="https://merchflux.com/" target="_blank" rel="noopener noreferrer">Website</a></li>
+            <li><a class="link-secondary" href="https://zakariahli14.medium.com/free-niche-research-tool-for-print-on-demand-unlock-better-niches-with-merchflux-276e5a7f732d" target="_blank" rel="noopener noreferrer">Review / tutorial</a></li>
+          </ul>
+
+          <hr style="margin:12px 0;border:none;border-top:1px solid #f1f5f9">
+
+          <div class="small"><strong>Top tip</strong></div>
+          <p class="small">Focus on <em>sub-niches</em> (audience + interest + event) — they convert better than broad categories.</p>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card h-100 shadow border-0">
-          <div class="card-body">
-            <h5 class="card-title">SEO</h5>
-            <p class="card-text">We optimize websites to rank higher in search engines and reach more users.</p>
-          </div>
-        </div>
-      </div>
+      </aside>
+    </main>
+  </div>
+
+  <!-- Floating CTA -->
+  <a id="fab" href="https://chromewebstore.google.com/detail/merchflux-for-merch-by-am/cbgnjkekdnakcocdmloeollckgpfakjb" target="_blank" rel="noopener noreferrer" aria-label="Install MerchFlux extension">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" style="flex:0 0 18px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M12 2v20M2 12h20" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+    </svg>
+    <div style="display:flex;flex-direction:column;line-height:1;">
+      <span style="font-weight:800">Install MerchFlux</span>
+      <small style="opacity:.95">Free Chrome extension</small>
     </div>
-  </div>
-</section>
+  </a>
 
-<!-- Portfolio Section -->
-<section id="portfolio" class="py-5">
-  <div class="container text-center">
-    <h2 class="mb-5">Our Work</h2>
-    <div class="row g-4">
-      <div class="col-md-4"><img src="https://via.placeholder.com/350x250" class="img-fluid rounded shadow" alt="Portfolio"></div>
-      <div class="col-md-4"><img src="https://via.placeholder.com/350x250" class="img-fluid rounded shadow" alt="Portfolio"></div>
-      <div class="col-md-4"><img src="https://via.placeholder.com/350x250" class="img-fluid rounded shadow" alt="Portfolio"></div>
-    </div>
-  </div>
-</section>
+  <script>
+    // small accessibility enhancement: keyboard focus for details
+    document.querySelectorAll('details summary').forEach(s => {
+      s.addEventListener('keydown', e => {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); s.parentElement.open = !s.parentElement.open; }
+      });
+    });
 
-<!-- Contact Section -->
-<section id="contact" class="py-5 bg-dark text-white">
-  <div class="container text-center">
-    <h2 class="mb-4">Contact Us</h2>
-    <p class="mb-4">We’d love to hear from you! Fill out the form below and we’ll get back to you shortly.</p>
-    <form class="row g-3 justify-content-center">
-      <div class="col-md-5">
-        <input type="text" class="form-control" placeholder="Your Name">
-      </div>
-      <div class="col-md-5">
-        <input type="email" class="form-control" placeholder="Your Email">
-      </div>
-      <div class="col-md-10">
-        <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
-      </div>
-      <div class="col-12">
-        <button class="btn btn-primary btn-lg">Send Message</button>
-      </div>
-    </form>
-  </div>
-</section>
-
-  <!-- Footer -->
- 
-  
-<footer class="bg-secondary text-white text-center py-3">
-<a href="https://hackmd.io/a4mpkLaXRtuAdQF4pXUXAg">sources</a>
-<a href="https://zakariahli14.medium.com/understanding-autism-a-complete-guide-for-parents-and-caregivers-56006b62b651">sources</a>
-<a href="https://guidestore.gumroad.com/l/Living-with-Autism-Guide-to-Understanding-and-Thrivin">sources</a>
-<a href="https://guidestore.gumroad.com/l/Living-with-Autism-Guide-to-Understanding-and-Thrivin">sources</a>
-<a href="https://www.amazon.com/dp/B0FNH3L64Q">sources</a>
-<a href="https://www.amazon.co.uk/dp/B0FNGX7B7M">sources</a>
-<a href="https://www.amazon.com/dp/B0FNDL5CCW">sources</a>
-<a href="https://www.amazon.co.uk/dp/B0FNDPZZL2">sources</a>
-<a href="https://www.amazon.com/dp/B0FNC6R61Y">sources</a>
-<a href="https://www.amazon.co.uk/dp/B0FNC99HCH">sources</a>
-<a href="https://www.amazon.com/dp/B0FNC2KKB4">sources</a>
-<a href="https://zakariahli14.medium.com/understanding-autism-a-complete-guide-for-parents-and-caregivers-56006b62b651">sources</a>
-
-
-
-</footer>
-
-<!-- Footer -->
-<footer class="bg-secondary text-white text-center py-3">
-  <p class="mb-0">&copy; 2025 MyWebsite. All Rights Reserved.</p>
-</footer>
-
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    // Optional: add simple UTM to CTA links for tracking when needed
+    (function addUTM(){
+      try {
+        var params = '?utm_source=website&utm_medium=organic_page&utm_campaign=merchflux_landing';
+        document.querySelectorAll('a').forEach(a => {
+          if (a.href && a.href.includes('chromewebstore.google.com') && !a.href.includes('utm_')) {
+            a.href = a.href + params;
+          }
+        });
+      } catch(e){ /* no-op */ }
+    })();
+  </script>
 </body>
 </html>
